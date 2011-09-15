@@ -1,0 +1,13 @@
+/*
+ * OpenAero Stylesheet
+ */
+
+body {
+  padding: 5px;
+  background-color: #F5F4EF;
+}
+
+div.main {
+  border: 1px solid black;
+}
+

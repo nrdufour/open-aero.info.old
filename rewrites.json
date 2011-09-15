@@ -1,0 +1,14 @@
+[
+  {
+    "from"  : "", 
+    "to"    : "_list/all/projects"
+  },
+  {
+    "from": "style/*",
+    "to"  : "style/*"
+  },  
+  {
+    "from": "vendor/*",
+    "to"  : "vendor/*"
+  }
+]
