@@ -3,11 +3,30 @@
  */
 
 body {
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div#page {
+  margin-left: 5%;
+  width: 90%;
   padding: 5px;
-  background-color: #F5F4EF;
 }
 
 div.main {
   border: 1px solid black;
+}
+
+/*
+ * Links
+ */
+
+a {
+        color: #333;
+        text-decoration: underline;
+}
+a:hover {
+        color: #aaa;
+        text-decoration: underline;
 }
 
