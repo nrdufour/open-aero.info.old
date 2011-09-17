@@ -15,7 +15,7 @@ function(head, req) {
   send( Mustache.to_html(
     header,
     {
-      "page_title": "OpenAero",
+      "page_title": "Home",
       "asset": asset
     }
   ) );
