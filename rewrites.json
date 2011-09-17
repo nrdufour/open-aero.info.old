@@ -8,6 +8,14 @@
     "to"  : "style/*"
   },  
   {
+    "from": "favicon.ico",
+    "to"  : "images/favicon.ico"
+  },  
+  {
+    "from": "images/*",
+    "to"  : "images/*"
+  },  
+  {
     "from": "vendor/*",
     "to"  : "vendor/*"
   }
