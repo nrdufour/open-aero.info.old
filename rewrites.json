@@ -1,7 +1,10 @@
 [
   {
     "from"  : "", 
-    "to"    : "_list/all/projects"
+    "to"    : "_list/all/projects",
+    "query" : {
+      "limit": 2
+    }
   },
   {
     "from": "style/*",
