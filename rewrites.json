@@ -18,5 +18,9 @@
   {
     "from": "vendor/*",
     "to"  : "vendor/*"
+  },
+  {
+    "from": "page/*",
+    "to"  : "_show/page/*"
   }
 ]
