@@ -14,7 +14,13 @@ div#page {
 }
 
 div.main {
-  border: 1px solid black;
+  padding: 5px;
+}
+
+div.announce {
+  color: white;
+  background-color: gray;
+  padding: 10px;
 }
 
 /*
