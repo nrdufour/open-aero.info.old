@@ -7,6 +7,18 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+div.toolbar {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+div.toolbar a {
+  padding: 2px;
+  background-color: white;
+  color: black;
+}
+
 div#page {
   margin-left: 5%;
   width: 90%;
