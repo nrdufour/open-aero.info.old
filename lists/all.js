@@ -1,9 +1,6 @@
 function(head, req) {
   var ddoc = this;
   var Mustache = require('vendor/couchapp/lib/mustache');
-  var path = require('vendor/couchapp/lib/path').init(req);
-
-  var asset = path.asset();
 
   start({
     "headers": {
@@ -15,8 +12,7 @@ function(head, req) {
   send( Mustache.to_html(
     header,
     {
-      "page_title": "Home",
-      "asset": asset
+      "page_title": "Home"
     }
   ) );
 
