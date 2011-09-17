@@ -19,6 +19,9 @@ div.toolbar a {
   color: black;
 }
 
+img.front_image {
+}
+
 div#page {
   margin-left: 5%;
   width: 90%;
@@ -33,11 +36,9 @@ div.main {
 }
 
 div.announce {
-  float: right;
   color: white;
   background-color: gray;
   padding: 10px;
-  width: 50%;
 }
 
 div.project_banner {
