@@ -16,6 +16,18 @@ function(head, req) {
     }
   ) );
 
+  var announce = ddoc.templates.announce;
+  send( Mustache.to_html(
+    announce,
+    {}
+  ) );
+
+  var start_home = ddoc.templates.start_home;
+  send( Mustache.to_html(
+    start_home,
+    {}
+  ) );
+
   var row;
   var project_banner = ddoc.templates.project_banner;
   while(row = getRow()) {
@@ -24,6 +36,12 @@ function(head, req) {
       row.value
     ) );
   }
+
+  var end_home = ddoc.templates.end_home;
+  send( Mustache.to_html(
+    end_home,
+    {}
+  ) );
 
   var footer = ddoc.templates.footer;
   send( Mustache.to_html(
