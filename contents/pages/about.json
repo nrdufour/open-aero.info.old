@@ -1,0 +1,6 @@
+{
+  "_id" : "about",
+  "title" : "About",
+  "type"  : "page",
+  "body"  : "#About\n\n## A bit of history\n\nOpenAero was mainly designed in 2006 to help cataloging open resources related to aviation.\n\nThe [GNU/Linux Aviation HOWTO](http://tldp.org/HOWTO/html_single/Aviation-HOWTO/) was one of the driver.\n\n## The goals\n\nOpenAero wants to:\n\n - help people using open data in the aviation\n - mix and match tools and data\n - share knowledge in order to obtain greater resilience\n\n"
+}
