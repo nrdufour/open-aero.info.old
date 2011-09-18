@@ -3,7 +3,8 @@
     "from"  : "", 
     "to"    : "_list/homepage/projects",
     "query" : {
-      "limit" : "2"
+      "limit" : "2",
+      "descending" : "true"
     }
   },
   {
